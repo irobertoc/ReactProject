@@ -1,0 +1,17 @@
+{
+  "name": "clase1react",
+  "version": "1.0.0",
+  "main": "ejemplo.js",
+  "scripts": {
+    "start": "node ejemplo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "luxon": "^3.3.0",
+    "toastify": "^2.0.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
