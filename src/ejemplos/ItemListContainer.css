@@ -1,0 +1,19 @@
+
+
+.list_Products {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.list_Products h2 {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+
+}
+
+.list_Products p {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+
+}
