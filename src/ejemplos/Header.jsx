@@ -4,7 +4,8 @@ const Header = () => {
     return (
         <header className="header">
             <div className="header_container">
-                <h1 className="header_logo">Tech Case</h1>
+            <h1 className="header_logo">Tech Case</h1>
+            <img src="./img/vite.svg" alt="Logo" />
 
                 <nav className="header_nav">
                     <a className="header_link" href="">Nosotros</a>
