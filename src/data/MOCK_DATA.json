@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "nombre": "Producto 1",
+        "descripcion": "fdfsdfsfdf",
+        "precio": 1500,
+        "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png"
+
+    },
+        {
+        "id": 2,
+        "nombre": "Producto 2",
+        "descripcion": "fdfsdfsfdf",
+        "precio": 1500,
+        "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png"
+
+    },
+    {
+        "id": 3,
+        "nombre": "Producto 3",
+        "descripcion": "fdfsdfsfdf",
+        "precio": 1500,
+        "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png"
+
+    },
+    {
+        "id": 4,
+        "nombre": "Producto 4",
+        "descripcion": "fdfsdfsfdf",
+        "precio": 1500,
+        "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png"
+
+    },
+    {
+        "id": 5,
+        "nombre": "Producto 5",
+        "descripcion": "fdfsdfsfdf",
+        "precio": 1500,
+        "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png"
+
+    },
+    {
+        "id": 6,
+        "nombre": "Producto 6",
+        "descripcion": "fdfsdfsfdf",
+        "precio": 1500,
+        "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png"
+
+    }
+
+]
