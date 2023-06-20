@@ -1,4 +1,5 @@
 import './Header.scss'
+import { Link } from 'react-router-dom'
 const Header = () => {
 
     return (
@@ -8,9 +9,10 @@ const Header = () => {
             <img src="./img/vite.svg" alt="Logo" />
 
                 <nav className="header_nav">
-                    <a className="header_link" href="">Nosotros</a>
-                    <a className="header_link"href="">Fundas</a>
-                    <a className="header_link" href="">Audifonos</a>
+                    <Link className="header_link" to="/">Inicio</Link>
+                    <Link className="header_link" to="nosotros">Nosotros</Link>
+                    <Link className="header_link" to="fundas">Fundas</Link>
+                    <Link className="header_link" to="audifonos">Audifonos</Link>
                 </nav>
             </div>
 

@@ -4,7 +4,8 @@
         "nombre": "Producto 1",
         "descripcion": "fdfsdfsfdf",
         "precio": 1500,
-        "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png"
+        "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png",
+        "category": "iPhone 14"
 
     },
         {
@@ -12,7 +13,8 @@
         "nombre": "Producto 2",
         "descripcion": "fdfsdfsfdf",
         "precio": 1500,
-        "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png"
+        "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png",
+        "category": "iPhone 13"
 
     },
     {
@@ -20,7 +22,8 @@
         "nombre": "Producto 3",
         "descripcion": "fdfsdfsfdf",
         "precio": 1500,
-        "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png"
+        "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png",
+        "category": "iPhone 12"
 
     },
     {
@@ -28,15 +31,16 @@
         "nombre": "Producto 4",
         "descripcion": "fdfsdfsfdf",
         "precio": 1500,
-        "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png"
-
+        "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png",
+        "category": "iPhone 14 Pro Max"
     },
     {
         "id": 5,
         "nombre": "Producto 5",
         "descripcion": "fdfsdfsfdf",
         "precio": 1500,
-        "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png"
+        "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png",
+        "category": "iPhone 13 Pro Max"
 
     },
     {
@@ -44,7 +48,8 @@
         "nombre": "Producto 6",
         "descripcion": "fdfsdfsfdf",
         "precio": 1500,
-        "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png"
+        "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png",
+        "category": "iPhone 12 Pro Max"
 
     }
 

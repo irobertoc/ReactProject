@@ -1,10 +1,10 @@
-import { useState } from "react"
+//import { useProductos } from "../useProductos"
 
-const Nosotros = () => {
-    const[id, setID] = useState(1)
+const Fundas = () => {
     return (
-        <div className="container">
-            <h3>Nosotros</h3>
+        <div className="container my-5">
+
+            <h3>Fundas</h3>
             <hr />
             <button className="btn btn-primary">SCROLL</button>
 
@@ -15,4 +15,4 @@ const Nosotros = () => {
     )
 }
 
-export default Nosotros
+export default Fundas

@@ -1,10 +1,7 @@
-import { useState } from "react"
-
-const Nosotros = () => {
-    const[id, setID] = useState(1)
+const Audifonos = () => {
     return (
         <div className="container">
-            <h3>Nosotros</h3>
+            <h3>Audifonos</h3>
             <hr />
             <button className="btn btn-primary">SCROLL</button>
 
@@ -15,4 +12,4 @@ const Nosotros = () => {
     )
 }
 
-export default Nosotros
+export default Audifonos
