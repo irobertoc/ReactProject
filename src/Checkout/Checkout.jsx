@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { useCartContext } from "../context/CartContext"
 import { Link, Navigate } from "react-router-dom"
-import { writeBatch, collection, where, documentId, addDoc, updateDoc, query, getDocs } from "firebase/firestore"
+import { writeBatch, collection, where, documentId, addDoc, query, getDocs } from "firebase/firestore"
 import { db } from "../firebase/config"
 import { Formik, Form, Field, ErrorMessage } from "formik"
 import * as Yup from 'yup'

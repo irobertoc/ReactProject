@@ -28,7 +28,6 @@ function App() {
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/fundas" element={<Fundas />} />
           <Route path="/audifonos" element={<Audifonos />} />
-          <Route path="*" element={<Navigate to="/"/>}/>
         </Routes>
       </BrowserRouter>
     </CartProvider>
