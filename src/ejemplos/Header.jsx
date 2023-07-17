@@ -1,5 +1,7 @@
 import './Header.scss'
 import { Link } from 'react-router-dom'
+import Buscador from './Buscador'
+import CartWidget from '../CartWidget/CartWidget'
 const Header = () => {
 
     return (
@@ -14,8 +16,9 @@ const Header = () => {
                     <Link className="header_link" to="fundas">Fundas</Link>
                     <Link className="header_link" to="audifonos">Audifonos</Link>
                 </nav>
+                <CartWidget />
             </div>
-
+            <Buscador/>
         </header>
     )
 }

@@ -1,0 +1,12 @@
+.cart-widget {
+  color: white;
+  font-size: 30px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.cart-widget-active {
+  visibility: visible;
+  opacity: 1;
+}
+/*# sourceMappingURL=CartWidget.css.map */

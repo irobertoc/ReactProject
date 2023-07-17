@@ -5,7 +5,8 @@
         "descripcion": "fdfsdfsfdf",
         "precio": 1500,
         "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png",
-        "category": "iPhone 14"
+        "category": "iPhone 14",
+        "stock": 10
 
     },
         {
@@ -14,7 +15,8 @@
         "descripcion": "fdfsdfsfdf",
         "precio": 1500,
         "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png",
-        "category": "iPhone 13"
+        "category": "iPhone 13",
+        "stock": 10
 
     },
     {
@@ -23,7 +25,8 @@
         "descripcion": "fdfsdfsfdf",
         "precio": 1500,
         "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png",
-        "category": "iPhone 12"
+        "category": "iPhone 12",
+        "stock": 10
 
     },
     {
@@ -32,7 +35,8 @@
         "descripcion": "fdfsdfsfdf",
         "precio": 1500,
         "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png",
-        "category": "iPhone 14 Pro Max"
+        "category": "iPhone 14 Pro Max",
+        "stock": 10
     },
     {
         "id": 5,
@@ -40,7 +44,8 @@
         "descripcion": "fdfsdfsfdf",
         "precio": 1500,
         "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png",
-        "category": "iPhone 13 Pro Max"
+        "category": "iPhone 13 Pro Max",
+        "stock": 10
 
     },
     {
@@ -49,7 +54,8 @@
         "descripcion": "fdfsdfsfdf",
         "precio": 1500,
         "img": "https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png",
-        "category": "iPhone 12 Pro Max"
+        "category": "iPhone 12 Pro Max",
+        "stock": 10
 
     }
 
