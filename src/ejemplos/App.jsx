@@ -18,7 +18,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <hr />
-
+        
         <Routes>
           <Route path="/" element={<ItemListContainer />} />
           <Route path="/productos/:categoryId" element={<ItemListContainer />} />

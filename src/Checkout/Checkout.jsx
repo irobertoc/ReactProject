@@ -74,7 +74,7 @@ const Checkout = () => {
     if (orderId) {
         return (
             <div className="container my-5">
-                <h2>Tu compra se registró correctamente!</h2>
+                <h2>Tu compra se registró correctamente, gracias por elegir Tech Case!</h2>
                 <hr />
                 <p>Tu número de compra es: <strong>{orderId}</strong></p>
                 <Link to="/" className="btn btn-primary">Volver al inicio</Link>

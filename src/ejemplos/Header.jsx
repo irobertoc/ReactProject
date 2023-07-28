@@ -8,7 +8,6 @@ const Header = () => {
         <header className="header">
             <div className="header_container">
             <h1 className="header_logo">Tech Case</h1>
-            <img src="./img/vite.svg" alt="Logo" />
 
                 <nav className="header_nav">
                     <Link className="header_link" to="/">Inicio</Link>
@@ -18,7 +17,6 @@ const Header = () => {
                 </nav>
                 <CartWidget />
             </div>
-            <Buscador/>
         </header>
     )
 }

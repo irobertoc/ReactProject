@@ -1,15 +1,46 @@
+
+import { useEffect, useState } from 'react'
+import './ItemListContainer.css'
+import ItemList from '../ItemList/ItemList'
+import { useParams } from 'react-router-dom'
+import { collection, getDocs, query, where } from 'firebase/firestore'
+import { db } from '../firebase/config'
+
 const Audifonos = () => {
+
+    const [productos, setProductos] = useState([])
+    const [loading, setLoading] = useState(true)
+
+    const { categoryId } = useParams()
+
+    useEffect(() => {
+        setLoading(true)
+
+        const productosRef = collection(db, "productos")
+        const q = categoryId
+                    ? query(productosRef, where("category", "==", categoryId))
+                    : productosRef
+        getDocs(q)
+            .then((resp) => {
+                const items = resp.docs.map((doc) => ({ ...doc.data(), id: doc.id }))
+                setProductos(items)
+            })
+            .catch(e => console.log(e))
+            .finally(() => setLoading(false))
+
+    }, [categoryId])
+
+
     return (
-        <div className="container">
-            <h3>Audifonos</h3>
-            <hr />
-            <button className="btn btn-primary">SCROLL</button>
-
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, maxime illum asperiores fugit odit nisi harum assumenda saepe consequatur sunt vero nulla molestiae ratione quidem commodi obcaecati cumque? Ad, pariatur.</p>
-
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates iste voluptate ea quibusdam. Repellat corporis assumenda, magnam fugit distinctio, obcaecati ipsam dicta placeat est at eveniet optio omnis expedita sunt.</p>
+        <div className="container my-5">
+            {
+                loading
+                    ? <h2>Cargando...</h2>
+                    : <ItemList items={productos} />
+            }
         </div>
     )
 }
+
 
 export default Audifonos

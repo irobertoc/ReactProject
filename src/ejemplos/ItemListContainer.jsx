@@ -9,9 +9,6 @@ const ItemListContainer = () => {
 
     const [productos, setProductos] = useState([])
     const [loading, setLoading] = useState(true)
-    //const [searchParams] = useSearchParams()
-
-    //const search = searchParams.get("search")
 
     const { categoryId } = useParams()
 
